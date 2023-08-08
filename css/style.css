@@ -1,0 +1,232 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s;
+}
+
+
+/*Portada*/
+
+.promo{
+   padding-top: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 60%;
+   margin: auto;
+   position: relative;
+   z-index: 2;
+}
+
+#hero
+{
+   min-height: 100vh;
+   position: relative;
+}
+
+h1 {
+   color: #e8dfdf;
+}
+
+video {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.capa {
+   position: absolute;
+   top: 0;
+   left: 0; 
+   width: 100%;
+   height: 100%;
+   background: #19191c; 
+   opacity: 0.5;
+   mix-blend-mode: overlay;
+}
+
+
+
+/*Sectores*/
+
+.sectoresfilas{
+   padding: 20px;
+}
+.sectortitulo h2{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(29, 38, 48);
+   margin: 20px;
+}
+
+.sectortitulo p{
+   color:rgb(29, 38, 48);
+   text-align: center;
+}
+
+.sectores h4 a{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(10,38,68);
+   text-align: center;
+}
+
+/*Contenedor Typing*/
+.contenedorTyping {
+   background: linear-gradient(70deg,rgb(244, 243, 242),rgb(220, 215, 215));
+   height: 500px;
+   }
+
+.contenedorTyping p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 40px;
+   margin-top: 20%;
+   color:rgb(29, 38, 48);
+}
+
+
+/*Que hacemos*/
+.quehacemos{
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.quehacemos p{
+   text-align: center;
+}
+
+
+
+/*Contador*/
+
+.contador{
+   background: linear-gradient(70deg,rgb(244, 243, 242),rgb(220, 215, 215));
+   padding: 20px;
+}
+
+.icon-box{
+   height: 100px;
+   width: 100px;
+   margin: 20px auto;
+   transform: rotate(45deg);
+}
+
+.icon-box .fa{ 
+font-size: 40px;
+margin: 25px auto;
+color: #323030;
+transform: rotate(-45deg); 
+}
+
+.counter-box .superior {
+   font-size: 12px;
+   color: #323030;
+}
+
+.counter-box .counter {
+   font-size: 35px;
+   color: #323030;
+}
+
+.counter-box .inferior{
+   font-size: 25px;
+   color: #323030;
+}
+
+/*Nuestra solucion*/
+.nuestrasolucion{
+   padding: 50px;
+}
+
+.nuestrasolucion .solucion{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.nuestrasolucion h2{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(29, 38, 48);
+   margin: 20px;
+}
+
+.nuestrasolucion h1{
+   color: #939292;
+   font-size: 23px;
+   text-align: left;
+   margin-top: 20px;
+}
+
+.nuestrasolucion p{
+   text-align: left;
+}
+
+
+/*Clientes*/
+
+.clientes{
+   margin-bottom: 30px;
+}
+
+.clientes h2{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(29, 38, 48);
+   margin: 20px;
+
+ }
+
+
+
+/*footer*/
+.footer p{
+   color: #f7f6f6;
+   line-height: 25px;
+}
+.footer h2 {
+   color: #f7f6f6;
+   font-size:  18px;
+}
+.sectionfooter{
+   background:rgb(226, 4, 17)
+}
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.footerinferior{
+   background:rgb(123, 9, 17);
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#babbb7;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
