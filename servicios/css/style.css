@@ -1,0 +1,172 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s;
+}
+
+
+
+/*Portada*/
+
+.portada{
+   width: 100%;
+   height: 60vh;
+   background-image: url(../img/laboratoriodecalidad.jpg);
+   background-size: cover; 
+   background-position: center;
+}
+
+.portada h1{
+   font-size: 5vw;
+   position: center center;
+   color: #ffffff;
+   margin-top: 200px;
+   margin-left: 20vw;
+   margin-right: 20vw;
+   text-align: center;
+}
+
+/*Notas*/
+.notas{
+   padding: 60px;
+}
+
+.notas h4{
+   padding-top: 10px;
+}
+
+.contenedortreslineas{
+   padding: 15px;
+}
+ 
+
+/*Contenedorimagen 1 Concreto*/
+.contenedorimagen1{
+   height: 400px;
+   background: url(../img/concretohidraulico.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorimagen1 h1{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(242, 242, 242);
+   font-size: 3vw;
+}
+
+.contenedorimagen1 p{
+   color: rgba(243, 239, 239);
+}
+
+/*Contenedorimagen 2 Mecanicadesuelos*/
+.contenedorimagen2{
+   height: 400px;
+   background: url(../img/mecanicadesuelos.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorimagen2 h1{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(242, 242, 242);
+   font-size: 3vw;
+}
+
+
+.contenedorimagen2 p{
+   color: rgba(243, 239, 239);
+}
+
+/*Contenedorimagen 3*/
+.contenedorimagen3{
+   height: 400px;
+   background: url(../img/fondoinge3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorimagen3 h1{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(242, 242, 242);
+   font-size: 3vw;
+}
+
+.contenedorimagen3 p{
+   color: rgba(243, 239, 239);
+}
+
+/*Contenedor Derecho*/
+.contenedorderecho {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+/*Contenedor Izquierdo*/
+.contenedorizquierdo {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   }
+
+
+
+
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+}
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+.sectionfooter{
+   background:rgb(226, 4, 17)
+}
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.footerinferior{
+   background:rgb(123, 9, 17);
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}

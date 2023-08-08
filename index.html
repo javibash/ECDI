@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>ECDI - Laboratorio de Calidad</title>
+    <link rel="icon"  href="img/favicon.ico">
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+   <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+    <!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+</head>
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container navbar">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo_ECDI.png" width="102" height="35"  alt="">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="servicios/servicios.html#Concreto" target="#Concreto">Concreto Hidráulico</a>
+            <a class="dropdown-item" href="servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Prefabricados</a>
+            <a class="dropdown-item" href="servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Mecánica de Suelos</a>
+            <a class="dropdown-item" href="servicios/servicios.html#Terracerias">Terracerias</a>
+            <a class="dropdown-item" href="servicios/servicios.html#Asfalto">Asfalto</a>
+            <a class="dropdown-item" href="servicios/servicios.html#Geofisica">Geofísica</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nosotros
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="nosotros/nosotros.html#Nosotros">Sobre Nosotros</a>
+            <a class="dropdown-item" href="nosotros/nosotros.html#Experiencia">Experiencia</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-secondary"><a href="contacto/contacto.html">Empecemos un Proyecto</a></button>
+        </li>
+      </ul>
+    </div>
+    
+    </div>
+  </nav>
+
+
+<!--Portada-->
+<main id="hero">
+  <div class="promo">
+    <h1></h1>
+    <p></p>
+
+  </div>
+
+  <video muted autoplay loop src="img/video.mp4"></video>
+<div class="capa">
+
+</div>
+
+</main>
+
+      
+<!--Sectores-->
+<div class="container sectores">
+  <div class="row">
+    <div class="col-md-12 sectortitulo">     
+      <h2 class="text-center">¿Qué hacemos?</h2>
+      <br>  
+       
+      <p>ECDI® , SA de CV. Laboratorio especializado de pruebas para el área de concretos, 
+        terracerías, estudios de mecánica de suelos, control de calidad en las obras civiles, con un respaldo de más de 15 años de experiencia.
+      </p>
+      <br>  
+    </div>
+  </div>
+
+  <div class="row sectoresfilas">
+    <div class="col-sm-4  text-center ">
+      <img class="sectoresicono" src="img/prueba_concreto_hidraulico.png" alt="Concreto hidraulico">
+      <h4 class="sectoresgeotos"><a href="servicios/servicios.html#Concreto"> Concreto Hidráulico</a></h4> 
+    </div>
+
+    <div class="col-sm-4 sectores text-center">
+      <img class="sectoresicono" src="img/pruebas_prefabricado.png" alt="Prefabricado">
+      <h4 class="sectoresgeotos"><a href="servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Prefabricados</a></h4>
+    </div>
+
+    <div class="col-sm-4 sectores text-center">
+      <img class="sectoresicono" src="img/pruebas_de_mecanicadesuelo.png" alt="Mecanica de Suelos">
+      <h4 class="sectoresgeotos"> <a href="servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Mecánica de Suelos</a> </h4>
+    </div>
+  </div>
+ 
+  <div class="row sectoresfilas">
+    <div class="col-sm-4  text-center ">
+      <img class="sectoresicono" src="img/prueba_terracerias.png" alt="Terracerias">
+      <h4 class="ssectoresgeotos"> <a href="servicios/servicios.html#Terracerias">Terracerías</a> </h4>
+    </div>
+
+    <div class="col-sm-4 sectores text-center">
+      <img class="sectoresicono" src="img/pruebas_de_asfalto.png" alt="Asfalto">
+      <h4 class="sectoresgeotos"> <a href="servicios/servicios.html#Asfalto">Asfalto</a> </h4>
+    </div>
+
+    <div class="col-sm-4 sectores text-center">
+      <img class="sectoresicono" src="img/geofisica.png" alt="Geofisica">
+      <h4 class="sectoresgeotos"> <a href="servicios/servicios.html#Geofisica">Geofísica</a> </h4>
+    </div>
+
+  </div>
+</div>
+
+<!--Contenedor Typing-->   
+<section class="contenedorTyping">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6">
+        <p> Somos profesionales en: <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      </div>
+    
+      <div class="col-md-6">
+        <img src="img/somosecdi.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Que hacemos-->   
+<section class="quehacemos">
+  <div class="container">
+    <h2 class="text-center">Estamos en cada paso</h2>
+    <br>
+    <p>Participamos en todos los procesos de la construcción para la evalución de calidad  </p>
+    <br>  
+    <div class="row clearfix">      
+            <div class="col-md-4 col-sm-8  ">
+              <div class="solucion">
+                <h4 class="text-right">Evaluación de Sito</h4>  
+              </div>
+            </div>
+
+            <div class="image-column col-md-2 col-sm-4  ">
+              <div class="solucion">
+                  <img src="img/valor1.png" class="img-fluid" alt="Soluciones de datos con Drones" />
+              </div>
+            </div>
+
+            <div class="image-column col-md-2 col-sm-4  ">
+              <div class="solucion">
+                  <img src="img/valor2.png" class="img-fluid" alt="Soluciones de datos con Drones" />
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-8  ">
+              <div class="solucion">
+                <h4>Elaboración de Diseño</h4>  
+              </div>
+            </div>          
+        </div>
+
+        <div class="row clearfix">      
+          <div class="col-md-4 col-sm-8  ">
+            <div class="solucion">
+            <h4 class="text-right">Construcción</h4>   
+            </div>
+          </div>
+
+          <div class="image-column col-md-2 col-sm-4  ">
+            <div class="solucion">
+                <img src="img/valor3.png" class="img-fluid" alt="Soluciones de datos con Drones" />
+            </div>
+          </div>
+
+          <div class="image-column col-md-2 col-sm-4  ">
+            <div class="solucion">
+                <img src="img/valor4.png" class="img-fluid" alt="Soluciones de datos con Drones" />
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-8  ">
+            <div class="solucion">
+              <h4>Planeación</h4>  
+            </div>
+          </div>          
+      </div>
+
+    </div>
+</section> 
+
+
+
+<!--Contador-->
+<section class="contador">
+  <div class="container counter-section">
+    <div class="row text-center">
+      <div class="col-md-3 counter-box">
+        <div class="icon-box"><i class="fa fa-briefcase"></i></div>
+        <p class="superior">Más de </p>
+        <p class="counter">100</p>
+        <p class="inferior">Proyectos</p>
+      </div>
+      <div class="col-md-3  counter-box">
+        <div class="icon-box"><i class="fa fa-database"></i></div>
+        <p class="superior">Más de </p>
+        <p class="counter">500</p>
+        <p class="inferior">Pruebas realizadas</p>
+      </div>
+      <div class="col-md-3 counter-box">
+        <div class="icon-box"><i class="fa fa-chart-area"></i></div>
+        <p class="superior">Más de </p>
+        <p class="counter">1000</p>
+        <p class="inferior">Km Analizados</p>
+      </div>
+      <div class="col-md-3 counter-box">
+        <div class="icon-box"><i class="fa fa-trophy"></i></i></div>
+        <p class="superior">Más de </p>
+        <p class="counter">50</p>
+        <p class="inferior">Clientes Satisfechos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Nuestra solucion-->
+<section class="nuestrasolucion">
+  <div class="container">
+    <h2 class="text-center">¿Por qué elegirnos?</h2>
+      <div class="row clearfix">
+          
+            <div class="image-column col-md-4 col-sm-16  ">
+              <div class="solucion">
+                  <img src="img/experiencia.png" class="img-fluid" alt="Experiencia" />
+                  <h1>Experiencia</h1>
+                  <p>Nuestros clientes y los más de 15 años de experiencia ofreciendo servicios nos respaldan </p> 
+                 </div>
+            </div>
+            <div class="image-column col-md-4 col-sm-16  ">
+              <div class="solucion">
+                  <img src="img/calidad.png" class="img-fluid" alt="Calidad" />
+                  <h1>Calidad</h1>
+                 <p>Apegamos nuestros servicios bajo normas y especificaciones de alta calidad </p> 
+                </div>
+            </div>
+            <div class="image-column col-md-4 col-sm-16  ">
+              <div class="solucion">
+                  <img src="img/servicio.png" class="img-fluid" alt="Servicio" />
+                  <h1>Servicio</h1>
+                 <p>Atención personalizada a nuestro cliente, así como completar proyectos dentro de tiempo y presupuesto </p> 
+                </div>
+            </div>
+
+
+
+     
+
+        </div>
+        
+    </div>
+</section> 
+
+
+<!--Clientes-->   
+<section class="clientes py-6 py-md-8 ">
+  <div class="container">
+    <div class="row align-items-center justify-content-center alianzas ">
+      <h2>Algunos de Nuestros Clientes</h2>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+          <img src="img/gruporios.png" alt="">  
+           </div>
+
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+            
+        <img src="img/gobiernodepuebla.png" alt=""> 
+           </div>
+
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+          <img src="img/gruporajuan.jpg" alt="">  
+         </div>
+
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+          <img src="img/gobiernodeveracruz.png" alt="">  
+        </div>
+
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+          <img src="img/municipiodehuejotzingo.png" alt="">  
+        </div>
+
+      </div>
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+
+        <!-- Brand -->
+        <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+           </div>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+ 
+
+
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="img/logo_ECDI2.jpg" width="99" height="35"   alt="">
+          <p>Estudios de Calidad para el Desarrollo de Infraestrucuta S.A. de C.V.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30"> 
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <h2> Contacto </h2>
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Tecali 6364 Col.Granjas del Sur 72470. Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 21 91 82 79 / +52 22 22 19 32 84</p></li>
+            <li><p><i class="far fa-envelope"></i> ecdisadecv@gmail.com</p></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; Estudios de Calidad Para el Desarrollo de Infraestrucura (ECDI) S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+
+<!--Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+<!--Configuracion Navbar-->
+<script type="text/javascript">
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollpos = window.pageYOffset;
+      if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-130px";
+      }
+      prevScrollpos = currentScrollpos;
+      } 
+</script>
+
+
+<!--Configuracion Contadores-->
+<script>
+  jQuery(document).ready(function ( $ )
+  {
+  $('.counter').counterUp({
+    delay: 5,
+    time: 500
+    });
+  });
+</script>
+
+<!--Configuracion Grafica Circular-->
+<script>
+  $(function(){
+    $('.chart').easyPieChart({
+     size:150,
+     barColor:'#17c2a4',
+     scaleColor:false,
+     lineWidth:10,
+     trackColor:'#ecf0f1',
+     lineCap:'circle',
+     animate:1700
+    })
+  })
+ </script>
+
+
+
+
+<!--Typing-->
+<script>
+  const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["Estudios Geotécnicos para Pavimentos", "Mecánica de Suelos para Edificaciones", "Evaluacion de Pavimentos", "Estudios para Estabilidad de Taludes"];
+const typingDelay = 100;
+const erasingDelay = 50;
+const newTextDelay = 500; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+
+
+
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+</script>
+
+</body>
+</html>
