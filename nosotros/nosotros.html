@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>ECDI - Servicios</title>
+    <link rel="icon"  href="../img/favicon.ico">
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+   <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+    <!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/logo_ECDI.png" width="102" height="35"  alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../servicios/servicios.html#Concreto" target="#Concreto">Concreto Hidráulico</a>
+          <a class="dropdown-item" href="../servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Prefabricados</a>
+          <a class="dropdown-item" href="../servicios/servicios.html#PrefabricadosyMecanicadeSuelos">Mecánica de Suelos</a>
+          <a class="dropdown-item" href="../servicios/servicios.html#Terracerias">Terracerias</a>
+          <a class="dropdown-item" href="../servicios/servicios.html#Asfalto">Asfalto</a>
+          <a class="dropdown-item" href="../servicios/servicios.html#Geofisica">Geofísica</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Nosotros
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../nosotros/nosotros.html#Nosotros">Sobre Nosotros</a>
+          <a class="dropdown-item" href="../nosotros/nosotros.html#Experiencia">Experiencia</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary"><a href="../contacto/contacto.html">Empecemos un Proyecto</a></button>
+      </li>
+    </ul>
+  </div>
+  
+  </div>
+</nav>
+  
+<!--Contenedor Imagen 1 Nosotros--> 
+<section class="contenedorimagen1" id="Nosotros">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-8 p-lg-5 mx-auto my-5">
+      <h1>Nosotros</h1>
+      <p> ECDI® surge de la necesidad a la mejora de procesos constructivos, una empresa 100% mexicana con más de 15 años dedicada al control de calidad de proyectos de la construcción ocupando el más alto profesionalismo y dedicación para garantizar la calidad de la obra.
+      </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+  </div>
+</section> 
+
+
+<!--Contenedor Cartas Experiencia-->
+<section class="cartasexperiencia" id="Experiencia">
+
+  <h2>Algunos de nuestros proyectos realizados</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CONTROL DE CALIDAD PARA LA OBRA</h5>
+            <p class="card-text text-justify">“PAVIMENTACIÓN DE LA CALLE
+              JAZMIN”, UBICADA EN LA LOC. PALITO VERDE, MPIO. DE SOLEDAD DE
+              DOBLADO VER. PARA CONSTRUCTORA CORASA S.A DE C.V. </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIO DE MECANICA DE SUELOS</h5>
+            <p class="card-text text-justify">CONSTRUCCIÓN DE
+              VIVIENDA EN PARQUE OAXACA EN LOMAS DE ANGELÓPOLIS, </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CONTROL DE CALIDAD DE LA OBRA</h5>
+            <p class="card-text text-justify"> “PAVIMENTO DE CONCRETO
+              HIDRÁULICO DE LA CALLE LOS ANDES”, COL. AGUSTÍN LARA, PARA
+              CONSTRUCTORA RAM-SAN, EN POZA RICA VER.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/card4.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIO DE MECANICA DE SUELOS</h5>
+            <p class="card-text text-justify">“FRACCIONAMIENTO
+              HABITACIONAL JUAN FCO. LUCAS”, UBICADO EN COMALTEPEC, PUE., PARA
+              JOSTACH CONSTRUCCIONE S.A. DE C.V. </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIO GEOTECNICO</h5>
+            <p class="card-text text-justify">“RECONSTRUCCIÓN DE LA
+              CARRETERA IXTLAN DE JUAREZ-SAN BARTOLOME ZOOGOCHO, TRAMO
+              4+500 AL 12+000”, EN EL MUNICIPIO DE IXTLAN DE JUAREZ, OAX. </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CONTROL DE CALIDAD DE LA OBRA</h5>
+            <p class="card-text text-justify">“CONSTRUCCION DE MACROPERA Y
+              CAMINO DE ACCESO PRESIDENTE ALEMAN 2144”, UBICADA EN EL MPIO. DE
+              PAPANTLA, VER.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/card7.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">CONTROL DE CALIDAD DE LA OBRA</h5>
+            <p class="card-text text-justify">PRUEBAS DE COMPACTACIÓN EN RELLENOS DE
+              ZANJA, TERRACERÍAS Y PAVIMENTO EN “DIVERSAS OBRAS DE DRENAJE Y
+              AGUA POTABLE”, EN EL MPIO. DE PUEBLA, PARA LA EMPRESA PROCIVI
+              CONSTRUCTORES DE PUEBLA S.A. DE C.V. </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card8.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIO DE MECANICA DE SUELOS</h5>
+            <p class="card-text text-justify">“CONSTRUCCIÓN DE
+              PLANTA DE FLUIDOS DE CONTROL”, EN EL MPIO. DE VENUSTIANO
+              CARRANZA, PUE., </p>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/card9.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">ESTUDIO GEOTECNICO</h5>
+            <p class="card-text text-justify"> (S.P.T.) PARA LA PLANTA DE
+              TRATAMIENTO BARRANCA CASTILLO, EN EL MUNICIPIO DE TEPEXI DE
+              RODRIGUEZ, PUE., PARA SISTEMAS HIDRAULICOS SAVE,</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+<br>
+</section>
+
+
+
+
+
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="../img/logo_ECDI2.jpg" width="99" height="35"   alt="">
+          <p>Estudios de Calidad para el Desarrollo de Infraestrucuta S.A. de C.V.</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30"> 
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <h2> Contacto </h2>
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Tecali 6364 Col.Granjas del Sur 72470. Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 21 91 82 79 / +52 22 22 19 32 84</p></li>
+            <li><p><i class="far fa-envelope"></i> ecdisadecv@gmail.com</p></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; Estudios de Calidad Para el Desarrollo de Infraestrucura (ECDI) S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="../privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+
+<script type="text/javascript">
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+    
+      var currentScrollpos = window.pageYOffset;
+      if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-130px";
+      }
+    
+      prevScrollpos = currentScrollpos;
+    
+      }
+    
+</script>
+
+</body>
+</html>

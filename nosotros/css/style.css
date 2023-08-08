@@ -1,0 +1,99 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s;
+}
+
+
+
+
+
+
+/*Contenedor Nosotros*/
+.contenedorimagen1{
+   height: 500px;
+   background: url(../img/fondoinge1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorimagen1 h1{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(255, 255, 255);
+   font-size: 30px;
+}
+
+.contenedorimagen1 p{
+   font-size: 20px;
+   color:rgb(255, 255, 255);
+}
+
+
+/*Contenedor Cartas*/
+.cartasexperiencia h2{
+   font-family: 'Source Sans Pro', sans-serif;
+   color:rgb(29, 38, 48);
+   margin: 30px;
+   text-align: center;
+}
+
+
+
+
+
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+}
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+.sectionfooter{
+   background:rgb(226, 4, 17)
+}
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.footerinferior{
+   background:rgb(123, 9, 17);
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
